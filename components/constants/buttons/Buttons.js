@@ -1,25 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 import { COLORS } from "../colors";
-const Button = ({
-  back = COLORS.BTN_BACKGROUND_SKY,
-  color = COLORS.COLOR_WHITE,
-  text = "Lets Talk",
-}) => {
+const Button = ({ back, color, text }) => {
   const ButtonStyle = styled.button`
     position: relative;
     outline: none;
     border: none;
     margin: 0;
+    cursor: pointer;
     background-color: ${back};
-    padding: 12px 32px;
+    padding: 14px 32px;
+    transition: ease-in-out 0.15s;
     border-top-right-radius: 15px;
+    border-top-left-radius: 1px;
     border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 1px;
     span {
       color: ${color};
       font-size: 15px;
       font-family: "Roboto", sans-serif;
       font-weight: 500;
+      transition: ease-in-out 0.15s;
+    }
+    &:hover {
+      transform: scale(1.1);
+      span {
+        color: ${COLORS.COLOR_DARK};
+      }
     }
   `;
   return (

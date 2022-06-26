@@ -1,11 +1,13 @@
 import React from "react";
-import Button from "../constants/buttons/Buttons";
+import About from "./about/About";
+import Home from "./home/Home";
 
 const view = () => {
   return (
-    <div>
-      <Button />
-    </div>
+    <>
+      <Home />
+      <About />
+    </>
   );
 };
 
