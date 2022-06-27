@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, FullContiner } from "../../constants/content/Containers";
 import { AboutStyle } from "../../styles/about";
+import Button from "../../constants/buttons/Buttons";
+import { COLORS } from "../../constants/colors";
 
 const About = () => {
   return (
@@ -10,11 +12,12 @@ const About = () => {
           <div className="aboutContainer">
             <div className="aboutImages">
               <div className="imageleft">
+                <div className="absolutBlock"></div>
                 <div className="imageleft-1">
-                  <img src="/assets/home-3.jpg" />
+                  <img src="/assets/home-1.jpg" />
                 </div>
                 <div className="imageleft-2">
-                  <img src="/assets/home-2.jpg" />
+                  <img src="/assets/home-4.jpg" />
                 </div>
               </div>
               <div className="imageright">
@@ -23,7 +26,26 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="aboutText"></div>
+            <div className="aboutText">
+              <div>
+                <h3>What About Weprosis</h3>
+                <h1>Revolutionizing Your industry with Weprosis Software</h1>
+                <p>
+                  Weprosis,Worldwide based custom software development &
+                  consulting company focusing on web,mobile,desktop & embedded
+                  software development.It's committed to meet the highest of
+                  ethical standards of work by implementing web & mobile
+                  solutions without making any compromise on their quality &
+                  functionality. & get back to you within one business day with
+                  free consultation & to discuss the next steps.
+                </p>
+                <Button
+                  text="Learn More"
+                  color={COLORS.COLOR_WHITE}
+                  back={COLORS.BTN_BACKGROUND_SKY}
+                />
+              </div>
+            </div>
           </div>
         </AboutStyle>
       </Container>
