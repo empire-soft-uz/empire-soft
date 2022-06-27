@@ -2,6 +2,24 @@ import styled from "styled-components";
 import { COLORS } from "../../constants/colors";
 export const HomeStyle = styled.section`
   .fullContainer {
+    .absolutImg-3 {
+      position: absolute;
+      left: 167px;
+      bottom: -60px;
+      z-index: 2;
+      img {
+        width: 150px;
+      }
+    }
+    .absolutImg-4 {
+      position: absolute;
+      left: 50px;
+      bottom: -100px;
+      z-index: 2;
+      img {
+        width: 150px;
+      }
+    }
     width: 100%;
     height: 100vh;
     background-color: ${COLORS.BACKGOUND_BLUE};
@@ -87,6 +105,23 @@ export const HomeStyle = styled.section`
       }
       .bannerHeader {
         position: relative;
+        .absolutImg-1 {
+          position: absolute;
+          right: -8px;
+          top: 0;
+          img {
+            width: 150px;
+          }
+        }
+        .absolutImg-2 {
+          position: absolute;
+          left: -8px;
+          bottom: 0;
+          z-index: 2;
+          img {
+            width: 150px;
+          }
+        }
         /* border: 1px solid yellow; */
         @media (min-width: 320px) {
           display: none;
@@ -102,6 +137,7 @@ export const HomeStyle = styled.section`
           border-top-left-radius: 100px;
           border-bottom-right-radius: 100px;
           transform: scale(0.9);
+          z-index: 5;
           img {
             width: 750px;
           }

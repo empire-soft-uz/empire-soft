@@ -44,6 +44,12 @@ const Home = () => {
                 />
               </div>
             </nav>
+            <div className="absolutImg-3">
+              <img src="/assets/group.png" />
+            </div>
+            <div className="absolutImg-4">
+              <img src="/assets/group.png" />
+            </div>
             <header className="header">
               <div className="textHeader">
                 <h1>
@@ -62,8 +68,14 @@ const Home = () => {
                 />
               </div>
               <div className="bannerHeader">
+                <div className="absolutImg-1">
+                  <img src="/assets/group.png" />
+                </div>
                 <div className="bannerPhoto">
                   <img src="/assets/home-3.jpg" />
+                </div>
+                <div className="absolutImg-2">
+                  <img src="/assets/group.png" />
                 </div>
               </div>
             </header>

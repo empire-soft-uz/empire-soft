@@ -52,6 +52,10 @@ const Projects = () => {
               </h1>
             </div>
             <div className="projectsBlock">
+              <div className="absolutImg-2"></div>
+              <div className="absolutImg-1">
+                <img src="/assets/group.png" />
+              </div>
               {data.map((item, index) => {
                 return (
                   <>

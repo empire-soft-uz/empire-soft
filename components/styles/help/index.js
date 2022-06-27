@@ -41,6 +41,16 @@ export const HelptStyle = styled.section`
       text-align: center;
       border-top-right-radius: 45px;
       border-bottom-left-radius: 45px;
+      z-index: 3;
+      .absolutImg-1 {
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+        z-index: 1;
+        img {
+          width: 70px;
+        }
+      }
       div {
         position: relative;
         display: flex;
@@ -75,21 +85,7 @@ export const HelptStyle = styled.section`
             transition: ease-in-out 0.15s;
           }
         }
-        /* span:nth-child(1) {
-          color: red;
-        }
-        span:nth-child(2) {
-          color: #0abde3;
-        }
-        span:nth-child(3) {
-          color: #2ed573;
-        }
-        span:nth-child(4) {
-          color: #ff6b81;
-        }
-        span:nth-child(5) {
-          color: #f9ca24;
-        } */
+
         h1 {
           font-size: 35px;
           color: ${COLORS.COLOR_DARK};

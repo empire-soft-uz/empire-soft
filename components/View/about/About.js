@@ -13,6 +13,9 @@ const About = () => {
             <div className="aboutImages">
               <div className="imageleft">
                 <div className="absolutBlock"></div>
+                <div className="absolutImg-1">
+                  <img src="/assets/group.png" />
+                </div>
                 <div className="imageleft-1">
                   <img src="/assets/home-1.jpg" />
                 </div>
@@ -23,6 +26,9 @@ const About = () => {
               <div className="imageright">
                 <div className="imageright-1">
                   <img src="/assets/home-5.jpg" />
+                </div>
+                <div className="absolutImg-2">
+                  <img src="/assets/group.png" />
                 </div>
               </div>
             </div>

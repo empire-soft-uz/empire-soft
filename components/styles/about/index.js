@@ -8,6 +8,24 @@ export const AboutStyle = styled.section`
     padding: 70px 0;
     display: flex;
     align-items: center;
+    .absolutImg-1 {
+      position: absolute;
+      left: -20px;
+      bottom: -20px;
+      z-index: 2;
+      img {
+        width: 120px;
+      }
+    }
+    .absolutImg-2 {
+      position: absolute;
+      right: -20px;
+      top: 0px;
+      z-index: 2;
+      img {
+        width: 120px;
+      }
+    }
     @media (max-width: 576px) {
       flex-direction: column;
       row-gap: 30px;
@@ -67,6 +85,7 @@ export const AboutStyle = styled.section`
           transform: scale(0.9);
           border-top-left-radius: 40px;
           border-bottom-right-radius: 40px;
+          z-index: 5;
           &:hover {
             transform: scale(1);
           }
@@ -87,6 +106,7 @@ export const AboutStyle = styled.section`
           transform: scale(0.9);
           border-top-left-radius: 50px;
           border-bottom-right-radius: 50px;
+          z-index: 5;
           &:hover {
             transform: scale(1);
           }

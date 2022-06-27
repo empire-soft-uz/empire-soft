@@ -67,6 +67,9 @@ const Help = () => {
                         <h1>{item.number}</h1>
                         <p>{item.title}</p>
                       </div>
+                      <div className="absolutImg-1">
+                        <img src="/assets/group.png" />
+                      </div>
                     </div>
                   </>
                 );
