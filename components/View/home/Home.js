@@ -10,7 +10,7 @@ const Home = () => {
       <HomeStyle>
         <div className="fullContainer">
           <Container>
-            <nav className="topMenuContainer">
+            <nav className="topMenuContainer" data-aos="fade-down">
               <div className="topMenuLogo">
                 <Image
                   src={"/logo.png"}
@@ -51,7 +51,7 @@ const Home = () => {
               <img src="/assets/group.png" />
             </div>
             <header className="header">
-              <div className="textHeader">
+              <div className="textHeader" data-aos="fade-up">
                 <h1>
                   We Are Trusted By World Building Future With Tech, Gear &
                   Software.
@@ -72,7 +72,7 @@ const Home = () => {
                   <img src="/assets/group.png" />
                 </div>
                 <div className="bannerPhoto">
-                  <img src="/assets/home-3.jpg" />
+                  <img src="/assets/home-3.jpg" data-aos="zoom-in" />
                 </div>
                 <div className="absolutImg-2">
                   <img src="/assets/group.png" />

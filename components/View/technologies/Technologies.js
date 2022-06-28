@@ -184,14 +184,14 @@ const Technologies = () => {
         <Container>
           <TechnoloStyle>
             <div className="technologies">
-              <div className="topText">
+              <div className="topText" data-aos="fade-down">
                 <h3>Our Technologies</h3>
                 <h1>
                   <span>Technologies</span> We Work With{" "}
                 </h1>
               </div>
               <div className="technoTools">
-                <div className="headerTools">
+                <div className="headerTools" data-aos="fade-up">
                   <ul className="ul">
                     {["Mobile", "Frontend", "Backend", "Devops", "UX/UI"].map(
                       (item, index) => {
@@ -213,7 +213,7 @@ const Technologies = () => {
                   {tools.map((item, index) => {
                     return (
                       <>
-                        <div className="tool" key={index}>
+                        <div className="tool" key={index} data-aos="zoom-out">
                           <img src={item.src} />
                           <h2>{item.name}</h2>
                         </div>

@@ -29,7 +29,7 @@ const Partners = () => {
       <Container>
         <PartenrsStyle>
           <div className="partners">
-            <div className="partnersTopText">
+            <div className="partnersTopText" data-aos="fade-down">
               <h3>Our Clients Partners</h3>
               <h1>
                 Our <span>Trusted</span> Clients & Partners Worldwide
@@ -39,7 +39,7 @@ const Partners = () => {
               {data.map((item, index) => {
                 return (
                   <>
-                    <div className="itemCarusel">
+                    <div className="itemCarusel" data-aos="flip-left">
                       <img src={item.src} />
                     </div>
                   </>

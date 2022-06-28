@@ -49,7 +49,7 @@ const Help = () => {
       <BackgroundBlue>
         <Container>
           <HelptStyle>
-            <div className="topHelpText">
+            <div className="topHelpText" data-aos="fade-up">
               <h3>We're Here to Help</h3>
               <h1>
                 <span>Empire</span> At a Glance
@@ -59,7 +59,11 @@ const Help = () => {
               {data.map((item, index) => {
                 return (
                   <>
-                    <div className="helpItem" key={index}>
+                    <div
+                      className="helpItem"
+                      key={index}
+                      data-aos="zoom-out-up"
+                    >
                       <div>
                         <span style={{ color: `${item.color}` }}>
                           {item.icon}

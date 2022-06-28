@@ -45,7 +45,7 @@ const Projects = () => {
       <BackgroundSky>
         <Container>
           <ProjectStyle>
-            <div className="topHeaderText">
+            <div className="topHeaderText" data-aos="fade-down">
               <h3>Successful Some Projects</h3>
               <h1>
                 Some of our <span>Works</span>
@@ -59,7 +59,7 @@ const Projects = () => {
               {data.map((item, index) => {
                 return (
                   <>
-                    <div className="projectItem">
+                    <div className="projectItem" data-aos="zoom-in">
                       <div className="absolutItemText">
                         <div>
                           <h1>Bikrum Projects</h1>

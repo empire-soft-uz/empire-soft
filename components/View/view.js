@@ -1,5 +1,7 @@
 import React from "react";
 import About from "./about/About";
+import Customers from "./customers/Customers";
+import Footer from "./footer/Footer";
 import Help from "./help/Help";
 import Home from "./home/Home";
 import Partners from "./partners/Partners";
@@ -17,6 +19,8 @@ const view = () => {
       <Help />
       <Partners />
       <Technologies />
+      <Customers />
+      <Footer />
     </>
   );
 };

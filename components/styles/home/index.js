@@ -102,6 +102,36 @@ export const HomeStyle = styled.section`
           color: ${COLORS.COLOR_GREAY};
           margin-bottom: 30px;
         }
+        @media (max-width: 576px) {
+          margin-top: 60px;
+          h1 {
+            font-size: 28px;
+          }
+          p {
+            margin-bottom: 90px;
+          }
+        }
+        }
+        @media (min-width: 576px) {
+          margin-top: 60px;
+          h1 {
+            font-size: 40px;
+          }
+          p {
+            margin-bottom: 90px;
+          }
+        }
+        @media (min-width: 768px) {
+        }
+        @media (min-width: 992px) {
+          margin-top: 0;
+          h1 {
+            font-size: 50px;
+          }
+          p {
+            margin-bottom: 30px;
+          }
+        }
       }
       .bannerHeader {
         position: relative;

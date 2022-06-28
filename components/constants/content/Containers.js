@@ -15,7 +15,7 @@ export const BackgroundBlue = styled.section`
 `;
 export const Container = styled.div`
   position: relative;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: auto;
   @media (max-width: 576px) {
     width: 100%;

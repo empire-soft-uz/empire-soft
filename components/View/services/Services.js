@@ -43,7 +43,7 @@ const Services = () => {
     <FullContiner>
       <Container>
         <ServicesStyle>
-          <div className="topText">
+          <div className="topText" data-aos="fade-down">
             <h3>Our Services</h3>
             <h1>See what we can do for you</h1>
           </div>
@@ -51,7 +51,7 @@ const Services = () => {
             {data.map((item, index) => {
               return (
                 <>
-                  <div className="itemBox" key={index}>
+                  <div className="itemBox" key={index} data-aos="zoom-in">
                     <div>
                       <span
                         style={{ backgroundColor: `${item.iconColor}` }}

@@ -11,7 +11,7 @@ const About = () => {
         <AboutStyle>
           <div className="aboutContainer">
             <div className="aboutImages">
-              <div className="imageleft">
+              <div className="imageleft" data-aos="fade-up-right">
                 <div className="absolutBlock"></div>
                 <div className="absolutImg-1">
                   <img src="/assets/group.png" />
@@ -19,11 +19,11 @@ const About = () => {
                 <div className="imageleft-1">
                   <img src="/assets/home-1.jpg" />
                 </div>
-                <div className="imageleft-2">
+                <div className="imageleft-2" data-aos="fade-up-right">
                   <img src="/assets/home-4.jpg" />
                 </div>
               </div>
-              <div className="imageright">
+              <div className="imageright" data-aos="fade-up-left">
                 <div className="imageright-1">
                   <img src="/assets/home-5.jpg" />
                 </div>
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="aboutText">
+            <div className="aboutText" data-aos="fade-down-left">
               <div>
                 <h3>What About Weprosis</h3>
                 <h1>Revolutionizing Your industry with Weprosis Software</h1>
