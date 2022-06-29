@@ -50,7 +50,7 @@ const Help = () => {
         <Container>
           <HelptStyle>
             <div className="topHelpText" data-aos="fade-up">
-              <h3>We're Here to Help</h3>
+              <h3>Were Here to Help</h3>
               <h1>
                 <span>Empire</span> At a Glance
               </h1>

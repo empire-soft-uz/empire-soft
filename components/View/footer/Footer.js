@@ -121,7 +121,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="absolutFooter" data-aos="fade-up">
-                <h3>Copyright &copy; 2022 Empire </h3>
+                <h3>Copyright 2022 Empire </h3>
               </div>
               <div className="absolutImg-2">
                 <img src="/assets/group.png" />

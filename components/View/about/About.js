@@ -39,7 +39,7 @@ const About = () => {
                 <p>
                   Weprosis,Worldwide based custom software development &
                   consulting company focusing on web,mobile,desktop & embedded
-                  software development.It's committed to meet the highest of
+                  software development.Its committed to meet the highest of
                   ethical standards of work by implementing web & mobile
                   solutions without making any compromise on their quality &
                   functionality. & get back to you within one business day with

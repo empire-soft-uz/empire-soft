@@ -111,66 +111,65 @@ export const HomeStyle = styled.section`
             margin-bottom: 90px;
           }
         }
+      }
+      @media (min-width: 576px) {
+        margin-top: 60px;
+        h1 {
+          font-size: 40px;
         }
-        @media (min-width: 576px) {
-          margin-top: 60px;
-          h1 {
-            font-size: 40px;
-          }
-          p {
-            margin-bottom: 90px;
-          }
-        }
-        @media (min-width: 768px) {
-        }
-        @media (min-width: 992px) {
-          margin-top: 0;
-          h1 {
-            font-size: 50px;
-          }
-          p {
-            margin-bottom: 30px;
-          }
+        p {
+          margin-bottom: 90px;
         }
       }
-      .bannerHeader {
+      @media (min-width: 768px) {
+      }
+      @media (min-width: 992px) {
+        margin-top: 0;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .bannerHeader {
+      position: relative;
+      .absolutImg-1 {
+        position: absolute;
+        right: -8px;
+        top: 0;
+        img {
+          width: 150px;
+        }
+      }
+      .absolutImg-2 {
+        position: absolute;
+        left: -8px;
+        bottom: 0;
+        z-index: 2;
+        img {
+          width: 150px;
+        }
+      }
+      /* border: 1px solid yellow; */
+      @media (min-width: 320px) {
+        display: none;
+      }
+      @media (min-width: 992px) {
+        display: flex;
+      }
+      .bannerPhoto {
         position: relative;
-        .absolutImg-1 {
-          position: absolute;
-          right: -8px;
-          top: 0;
-          img {
-            width: 150px;
-          }
-        }
-        .absolutImg-2 {
-          position: absolute;
-          left: -8px;
-          bottom: 0;
-          z-index: 2;
-          img {
-            width: 150px;
-          }
-        }
-        /* border: 1px solid yellow; */
-        @media (min-width: 320px) {
-          display: none;
-        }
-        @media (min-width: 992px) {
-          display: flex;
-        }
-        .bannerPhoto {
-          position: relative;
-          overflow: hidden;
-          width: 480px;
-          height: auto;
-          border-top-left-radius: 100px;
-          border-bottom-right-radius: 100px;
-          transform: scale(0.9);
-          z-index: 5;
-          img {
-            width: 750px;
-          }
+        overflow: hidden;
+        width: 480px;
+        height: auto;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        transform: scale(0.9);
+        z-index: 5;
+        img {
+          width: 750px;
         }
       }
     }
