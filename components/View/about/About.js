@@ -8,7 +8,7 @@ const About = () => {
   return (
     <FullContiner>
       <Container>
-        <AboutStyle>
+        <AboutStyle id="About">
           <div className="aboutContainer">
             <div className="aboutImages">
               <div className="imageleft" data-aos="fade-up-right">
@@ -34,22 +34,29 @@ const About = () => {
             </div>
             <div className="aboutText" data-aos="fade-down-left">
               <div>
-                <h3>What About Weprosis</h3>
-                <h1>Revolutionizing Your industry with Weprosis Software</h1>
+                <h3>What About Empire-soft</h3>
+                <h1>Revolutionizing Your industry with Empire-soft</h1>
                 <p>
-                  Weprosis,Worldwide based custom software development &
-                  consulting company focusing on web,mobile,desktop & embedded
-                  software development.Its committed to meet the highest of
-                  ethical standards of work by implementing web & mobile
-                  solutions without making any compromise on their quality &
-                  functionality. & get back to you within one business day with
-                  free consultation & to discuss the next steps.
+                  Our company is engaged in services for the creation of
+                  websites, mobile applications, as well as CRM, ERP, LMS, PMS
+                  systems in Uzbekistan. All our projects, regardless of
+                  complexity and subject matter, successfully promote the
+                  services of their owners. A creative team of experienced
+                  professionals always works for the result, helping clients to
+                  promote their business online. By contacting us, you are
+                  guaranteed to receive a high-quality project within a strictly
+                  stipulated time frame. The price of such work is more than
+                  acceptable, but this is how you can develop your business
+                  qualitatively in a short time. In addition, new technologies
+                  allow you to attract only an interested audience. Our services
+                  will certainly bring the site to the TOP, where it will be
+                  strengthened forever.
                 </p>
-                <Button
+                {/* <Button
                   text="Learn More"
                   color={COLORS.COLOR_WHITE}
                   back={COLORS.BTN_BACKGROUND_SKY}
-                />
+                /> */}
               </div>
             </div>
           </div>

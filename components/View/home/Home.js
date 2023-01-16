@@ -22,19 +22,19 @@ const Home = () => {
               <div className="topMenuCategory">
                 <ul>
                   <li>
-                    <a>Products</a>
+                    <a href="#Products">Products</a>
                   </li>
                   <li>
-                    <a>Services</a>
+                    <a href="#Services">Services</a>
                   </li>
                   <li>
-                    <a>Portfoilo</a>
+                    <a href="#Partners">Partners</a>
                   </li>
                   <li>
-                    <a>Blogs</a>
+                    <a href="#Blogs">Blogs</a>
                   </li>
                   <li>
-                    <a>About</a>
+                    <a href="#About">About</a>
                   </li>
                 </ul>
                 <Button
@@ -57,9 +57,9 @@ const Home = () => {
                   Software.
                 </h1>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the
+                  Technology and Innovation Go online with our team A team of
+                  professional developers with many years of experience in the
+                  market
                 </p>
                 <Button
                   color={COLORS.COLOR_WHITE}

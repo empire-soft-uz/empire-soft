@@ -4,22 +4,22 @@ import { PartenrsStyle } from "../../styles/partners";
 
 const data = [
   {
-    src: "/assets/apple.png",
+    src: "/assets/click.png",
   },
   {
-    src: "/assets/aws.png",
+    src: "/assets/100k.png",
   },
   {
-    src: "/assets/google.png",
+    src: "/assets/dveas.png",
   },
   {
-    src: "/assets/salesforce.webp",
+    src: "/assets/wedo.png",
   },
   {
-    src: "/assets/payme.png",
+    src: "/assets/qwert.png",
   },
   {
-    src: "/assets/intel.png",
+    src: "/assets/icon-digital.png",
   },
 ];
 
@@ -27,7 +27,7 @@ const Partners = () => {
   return (
     <FullContiner>
       <Container>
-        <PartenrsStyle>
+        <PartenrsStyle id="Partners">
           <div className="partners">
             <div className="partnersTopText" data-aos="fade-down">
               <h3>Our Clients Partners</h3>

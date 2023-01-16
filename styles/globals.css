@@ -11,6 +11,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   transition: all 0.2s;
+  scroll-behavior: smooth;
 }
 
 a {

@@ -9,41 +9,45 @@ import {
 import { ProjectStyle } from "../../styles/projects";
 const data = [
   {
-    name: "",
-    titile: "",
-    src: "/assets/preview.jpg",
+    name: "Forb uz",
+    title: "You are on the free online trading platform for business forb.uz.",
+    src: "/assets/forb.jpg",
   },
   {
-    name: "",
-    titile: "",
-    src: "/assets/preview.png",
+    name: "Primus Mall",
+    title:
+      "Primus Mall is not just an online store with limited features and brands.",
+    src: "/assets/mall.jpg",
   },
   {
-    name: "",
-    titile: "",
-    src: "/assets/preview -1.jpg",
+    name: "New Building",
+    title:
+      "The image of Tashkent is changing for the better every day, including thanks to new residential complexes",
+    src: "/assets/build.png",
   },
   {
-    name: "",
-    titile: "",
-    src: "/assets/preview -2.jpg",
+    name: "GOPARTS.AE",
+    title: "GOPARTS.AE is an affordable online store",
+    src: "/assets/goparts.png",
   },
   {
-    name: "",
-    titile: "",
-    src: "/assets/preview -4.jpg",
+    name: "E-DOCS",
+    title:
+      "Software package for ensuring legally significant electronic document management 'E-DOCS'",
+    src: "/assets/edocs.png",
   },
   {
-    name: "",
-    titile: "",
-    src: "/assets/preview -3.jpg",
+    name: "Empire IT Academy",
+    title:
+      "Empire IT Academy is an IT academy training full-cycle IT specialists",
+    src: "/assets/empire.png",
   },
 ];
 const Projects = () => {
   return (
     <FullContiner>
       <BackgroundSky>
-        <Container>
+        <Container id="Products">
           <ProjectStyle>
             <div className="topHeaderText" data-aos="fade-down">
               <h3>Successful Some Projects</h3>
@@ -62,10 +66,8 @@ const Projects = () => {
                     <div className="projectItem" data-aos="zoom-in">
                       <div className="absolutItemText">
                         <div>
-                          <h1>Bikrum Projects</h1>
-                          <h4>
-                            Weprosis Software Development Company Landing Page
-                          </h4>
+                          <h1>{item.name}</h1>
+                          <h4>{item.title}</h4>
                           <Button
                             text="View Projects"
                             color={COLORS.COLOR_BLUE}

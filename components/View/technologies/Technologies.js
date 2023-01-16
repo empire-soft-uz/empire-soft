@@ -84,7 +84,7 @@ const backend = [
     src: "/tools/php.svg",
   },
   {
-    name: "PosgreSQL",
+    name: "PostgresSQL",
     src: "/tools/posgres.svg",
   },
   {
@@ -200,12 +200,13 @@ const Technologies = () => {
                             <li
                               key={index}
                               onClick={(e) => clickItem(e, index)}
+                              className={index == 0 && "active"}
                             >
                               {item}
                             </li>
                           </>
                         );
-                      }
+                      },
                     )}
                   </ul>
                 </div>

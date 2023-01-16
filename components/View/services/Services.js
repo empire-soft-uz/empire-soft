@@ -11,38 +11,41 @@ const data = [
     title: "Web Development",
     icon: <GoFileCode />,
     iconColor: "#be2edd",
+    text: "Development of websites of any complexity with the author's design and taking into account the corporate identity of the company",
   },
   {
     title: "App Development",
     icon: <TbDeviceMobile />,
     iconColor: "#0abde3",
+    text: "Android and IOS applications of various complexity and capabilities, taking into account the wishes of the customer",
   },
   {
-    title: "UX/UI Desgin",
+    title: "System Development (CRM, ERP, LMS, PMS, BOOKING):",
     icon: <MdViewInAr />,
     iconColor: "#2ed573",
+    text: "Automation of any processes and businesses for any current operating systems",
   },
-  {
-    title: "Backend Development",
-    icon: <FaLaptopCode />,
-    iconColor: "#ff6b81",
-  },
-  {
-    title: "Analytic Solutions",
-    icon: <TbDeviceDesktopAnalytics />,
-    iconColor: "#f9ca24",
-  },
-  {
-    title: "Support Service",
-    icon: <HiOutlineSupport />,
-    iconColor: "#22a6b3",
-  },
+  // {
+  //   title: "Backend Development",
+  //   icon: <FaLaptopCode />,
+  //   iconColor: "#ff6b81",
+  // },
+  // {
+  //   title: "Analytic Solutions",
+  //   icon: <TbDeviceDesktopAnalytics />,
+  //   iconColor: "#f9ca24",
+  // },
+  // {
+  //   title: "Support Service",
+  //   icon: <HiOutlineSupport />,
+  //   iconColor: "#22a6b3",
+  // },
 ];
 const Services = () => {
   return (
     <FullContiner>
       <Container>
-        <ServicesStyle>
+        <ServicesStyle id="Services">
           <div className="topText" data-aos="fade-down">
             <h3>Our Services</h3>
             <h1>See what we can do for you</h1>
@@ -60,11 +63,7 @@ const Services = () => {
                         {item.icon}
                       </span>
                       <h2>{item.title}</h2>
-                      <p>
-                        Since our establishment,we have been delivering
-                        high-quality and sustainable software solutions for
-                        corporate purposes of worldwide businesses.
-                      </p>
+                      <p>{item.text}</p>
                     </div>
                   </div>
                 </>

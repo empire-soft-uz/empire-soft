@@ -53,7 +53,7 @@ const Footer = () => {
                         <a href="#">Twitter</a>
                       </li>
                       <li>
-                        <a href="#">Linkdin</a>
+                        <a href="#">Linkedin</a>
                       </li>
                       <li>
                         <a href="#">Instagram</a>
@@ -108,7 +108,7 @@ const Footer = () => {
                         <span>
                           <IoLocationSharp />
                         </span>
-                        <a href="#">Uzbekistan, Samarkand</a>
+                        <a href="#">Uzbekistan, Tashkent</a>
                       </li>
                       <li>
                         <a href="#"></a>
@@ -121,7 +121,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="absolutFooter" data-aos="fade-up">
-                <h3>Copyright 2022 Empire </h3>
+                <h3>Copyright 2023 Empire </h3>
               </div>
               <div className="absolutImg-2">
                 <img src="/assets/group.png" />

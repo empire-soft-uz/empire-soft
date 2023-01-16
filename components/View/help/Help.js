@@ -13,7 +13,7 @@ import { HelptStyle } from "../../styles/help";
 const data = [
   {
     icon: <RiTeamFill />,
-    number: "15+",
+    number: "10+",
     title: "Our Team Members",
     color: "#be2edd",
   },
@@ -48,7 +48,7 @@ const Help = () => {
     <FullContiner>
       <BackgroundBlue>
         <Container>
-          <HelptStyle>
+          <HelptStyle id="Blogs">
             <div className="topHelpText" data-aos="fade-up">
               <h3>Were Here to Help</h3>
               <h1>
