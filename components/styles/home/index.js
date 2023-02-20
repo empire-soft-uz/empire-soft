@@ -4,7 +4,7 @@ export const HomeStyle = styled.section`
   .fullContainer {
     .absolutImg-3 {
       position: absolute;
-      left: 167px;
+      left: 166px;
       bottom: -60px;
       z-index: 2;
       img {
