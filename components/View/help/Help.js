@@ -13,33 +13,27 @@ import { HelptStyle } from "../../styles/help";
 const data = [
   {
     icon: <RiTeamFill />,
-    number: "10+",
+    number: "15+",
     title: "Our Team Members",
     color: "#be2edd",
   },
   {
     icon: <TbWorld />,
-    number: "52+",
-    title: "Our Team Members",
+    number: "20+",
+    title: "Our Projects",
     color: "#0abde3",
   },
   {
     icon: <BsFillCheckCircleFill />,
-    number: "127+",
-    title: "Our Team Members",
+    number: "95%",
+    title: "Completion Rate",
     color: "#2ed573",
   },
   {
     icon: <BiHappyHeartEyes />,
-    number: "273+",
-    title: "Our Team Members",
+    number: "15+",
+    title: "Satisfied Cleans",
     color: "#ff6b81",
-  },
-  {
-    icon: <BsCalendarCheck />,
-    number: "7+",
-    title: "Our Team Members",
-    color: "#f9ca24",
   },
 ];
 
@@ -52,7 +46,7 @@ const Help = () => {
             <div className="topHelpText" data-aos="fade-up">
               <h3>Were Here to Help</h3>
               <h1>
-                <span>Empire</span> At a Glance
+                <span>Empire Soft</span> At a Glance
               </h1>
             </div>
             <div className="helpItems">

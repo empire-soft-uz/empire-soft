@@ -4,7 +4,7 @@ import Button from "../../constants/buttons/Buttons";
 import { COLORS } from "../../constants/colors";
 import { Container } from "../../constants/content/Containers";
 import { HomeStyle } from "../../styles/home";
-const Home = () => {
+const Home = ({ clickModal }) => {
   return (
     <>
       <HomeStyle>
@@ -41,6 +41,7 @@ const Home = () => {
                   text="Let's Talk"
                   back={COLORS.BTN_BACKGROUND_SKY}
                   color={COLORS.COLOR_WHITE}
+                  onClick={clickModal}
                 />
               </div>
             </nav>
@@ -65,6 +66,7 @@ const Home = () => {
                   color={COLORS.COLOR_WHITE}
                   text="Get Started"
                   back={COLORS.BTN_BACKGROUND_SKY}
+                  onClick={clickModal}
                 />
               </div>
               <div className="bannerHeader">

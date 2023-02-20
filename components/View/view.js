@@ -12,10 +12,13 @@ import Technologies from "./technologies/Technologies";
 
 const view = () => {
   const [isVisibility, setVisibility] = useState(false);
+  const handlerClick = () => {
+    setVisibility((prev) => !prev);
+  };
 
   return (
     <>
-      <Home clickModal={() => setVisibility((prev) => !prev)} />
+      <Home clickModal={() => handlerClick()} />
       <About />
       <Services />
       <Projects />
@@ -24,10 +27,7 @@ const view = () => {
       <Technologies />
       <Customers />
       <Footer />
-      <Modal
-        isVisibility={isVisibility}
-        clickModal={() => setVisibility((prev) => !prev)}
-      />
+      <Modal isVisibility={isVisibility} clickModal={() => handlerClick()} />
     </>
   );
 };

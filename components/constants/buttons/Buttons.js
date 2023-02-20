@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { COLORS } from "../colors";
-const Button = ({ back, color, text }) => {
+const Button = ({ back, color, text, onClick }) => {
   const ButtonStyle = styled.button`
     position: relative;
     outline: none;
@@ -30,11 +30,11 @@ const Button = ({ back, color, text }) => {
     }
   `;
   return (
-    <>
+    <span onClick={onClick}>
       <ButtonStyle>
         <span>{text}</span>
       </ButtonStyle>
-    </>
+    </span>
   );
 };
 export default Button;

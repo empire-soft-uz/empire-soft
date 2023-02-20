@@ -17,35 +17,34 @@ const Customers = () => {
             <div className="cilent" data-aos="fade-right">
               <div className="cilentImg">
                 <div>
-                  <img src="/assets/coment1.jpg" />
+                  <img src="/assets/rrr.png" />
                 </div>
               </div>
               <div className="cilentText">
                 <h4>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type
+                  Deep for successful and productive cooperation thank you. The
+                  technical services we used successful service was provided on
+                  time. Company We wish you luck in your future endeavors
                 </h4>
-                <h1>Esther Howard</h1>
-                <p>Founder of lovely</p>
+                <h1>Roee Bendor</h1>
+                <p>Wedo solutions</p>
               </div>
             </div>
             <div className="cilent" data-aos="fade-left">
               <div className="cilentImg">
                 <div>
-                  <img src="/assets/coment1.jpg" />
+                  <img src="/assets/jjj.png" />
                 </div>
               </div>
               <div className="cilentText">
                 <h4>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of
+                  Our website as well Many thanks for successfully completing
+                  the Crm program We are very satisfied with the quality of
+                  work. It's fun to work with masters of their work! We wish the
+                  company success and luck in its future endeavors!
                 </h4>
-                <h1>Esther Howard</h1>
-                <p>Founder of lovely</p>
+                <h1>Jurgen Firsching</h1>
+                <p>Chat XO</p>
               </div>
             </div>
           </div>

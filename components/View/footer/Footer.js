@@ -33,12 +33,14 @@ const Footer = () => {
                 <div className="footerLeft">
                   <div className="text-1" data-aos="fade-right">
                     <div className="headerText">
-                      <h1>Empire</h1>
+                      <h1>Empire Soft</h1>
                     </div>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry
-                      standard dummy
+                      Creative solutions for your brand/home/look.
+                      <br></br>
+                      Innovation at every turn.
+                      <br></br>
+                      Professionalism is an attitude.
                     </p>
                   </div>
                   <div className="text-2" data-aos="fade-left">
@@ -56,10 +58,12 @@ const Footer = () => {
                         <a href="#">Linkedin</a>
                       </li>
                       <li>
-                        <a href="#">Instagram</a>
+                        <a href="https://www.instagram.com/empire.soft.uz/">
+                          Instagram
+                        </a>
                       </li>
                       <li>
-                        <a href="#">Telegram</a>
+                        <a href="https://t.me/OriHero">Telegram</a>
                       </li>
                     </ul>
                   </div>
@@ -92,17 +96,22 @@ const Footer = () => {
                       <h1>Contact Us</h1>
                     </div>
                     <ul>
-                      <li>
+                      <li style={{ display: "flex", alignItems: "center" }}>
                         <span>
                           <BsTelephoneFill />
                         </span>
-                        <a href="#">+998 99 999 99 99</a>
+                        <span
+                          style={{ display: "flex", flexDirection: "column" }}
+                        >
+                          <a href="tel:+998974080700">+998 97 408 07 00</a>
+                          <a href="tel:+998994480500">+998 99 448 05 00</a>
+                        </span>
                       </li>
                       <li>
                         <span>
                           <MdEmail />
                         </span>
-                        <a href="#">info@empire.com</a>
+                        <a href="#">empire.soft.uz@gmail.com</a>
                       </li>
                       <li>
                         <span>
