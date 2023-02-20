@@ -10,7 +10,7 @@ import Projects from "./projects/Projects";
 import Services from "./services/Services";
 import Technologies from "./technologies/Technologies";
 
-const view = () => {
+const ViewBasic = () => {
   const [isVisibility, setVisibility] = useState(false);
   const handlerClick = () => {
     setVisibility((prev) => !prev);
@@ -32,4 +32,4 @@ const view = () => {
   );
 };
 
-export default view;
+export default ViewBasic;
